@@ -21,7 +21,7 @@ export default class MessageList extends Component {
           <div className='container'>
             {this.state.messages.map(message =>
               <div className = "message">
-                {message.name}: {message.text}
+                {message.name}:  {message.text}
               </div>
             )}
           </div>

@@ -26,21 +26,49 @@
 }
 
 
-MessageList Div{
-  color: red;
-}
-
 .message {
   color: #4267b2;
   font-family: sans-serif;
   text-align: left;
+  margin: 1px;
+  background-color: lightGray;
+  min-height: 50px;
+  border-radius: 12px;
+  padding: 5px;
+  overflow-wrap: break-word;
+
 }
 
 
 .container {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   width: 70%;
-  margin: 0 15% ;
+  margin: 0 15% 3% ;
+  overflow-y:scroll;
+  
+  max-height: 350px ;
+}
+
+
+
+.butt {
+  border-radius: 12px;
+   border: 1px outset lighter blue;
+   background-color: lightBlue;
+   height:50px;
+   width:50px;
+   cursor:pointer;
+   margin: 0 1%;
+}
+
+.butt:hover {
+   background-color: blue;
+   color:white;
+}
+
+.textbox{
+  height:50px;
+  width: 50%;
+  font-size:14pt;
 }

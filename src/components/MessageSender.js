@@ -34,14 +34,13 @@ export default class MessageSender extends Component {
     
     render() {
         return (
-           <div className = 'box'>
-            <form onSubmit= {this.submitMessage}>
-          
-                <input type="text" value={this.state.message} onChange={this.handleChange} name="name" />
-                <input type="submit" value="Submit" />
-                
-            </form>
-        
+            <div className = 'box'>
+                    <form onSubmit= {this.submitMessage}>
+                  
+                        <input className= 'textbox' type="text" value={this.state.message} onChange={this.handleChange} name="name" />
+                        <input className = 'butt' type="submit" value="Send" />
+                        
+                    </form>
             </div>
         
         
