@@ -20,3 +20,27 @@
 .App-link {
   color: #09d3ac;
 }
+
+.box{
+  
+}
+
+
+MessageList Div{
+  color: red;
+}
+
+.message {
+  color: #4267b2;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 15% ;
+}
