@@ -28,6 +28,7 @@ export default class MessageSender extends Component {
             name:'Anwar',
             text: this.state.message
         })
+        this.setState({message: ''})
         
     }
     

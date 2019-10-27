@@ -3,6 +3,6 @@ import '../App.css';
 
 export default class TopBar extends Component {
   render() {
-    return(<h1> I am title </h1>);
+    return(<h1> The glorious chat </h1>);
   }
 }
